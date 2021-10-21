@@ -1,6 +1,6 @@
 const api = {
     token: '3bd7a88a3c0104e8033b30a86a650975',
-    baseurl: 'http://api.openweathermap.org/data/2.5/',
+    baseurl: 'https://api.openweathermap.org/data/2.5/',
     baseurl2: 'https://api.openweathermap.org/data/2.5/onecall?'
 }
 
