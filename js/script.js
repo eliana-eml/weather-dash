@@ -178,7 +178,7 @@ function displayResults(weather) {
 
 
     cidade_nome_dia.textContent = nomeValue
-    imagem.src = `http://openweathermap.org/img/wn/${imgValue}@2x.png`;
+    imagem.src = `https://openweathermap.org/img/wn/${imgValue}@2x.png`;
     desc.textContent = `${descValue}`;
     temp.textContent = `Temperatura ${tempValue}°C`
     buscar.value = "";
