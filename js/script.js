@@ -227,7 +227,7 @@ function diasSemana(weather) {
         var camelDiaS = diaSemana[0].toUpperCase() + diaSemana.substr(1).replace('-feira', "");
         /*///////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
         dia.textContent = camelDiaS;
-        img.src = 'http://openweathermap.org/img/wn/' + imgValue + '@2x.png';
+        img.src = 'https://openweathermap.org/img/wn/' + imgValue + '@2x.png';
         desc.textContent = descSValue
         temp.textContent = "Temperatura " + tempSValue + "°C";
     }
